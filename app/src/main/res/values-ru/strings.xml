@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPSService09–962</string>
+    <string name="start_stop_location_listening">Начать или завершить получение координат устройства</string>
+    <string name="position">Широта: %f; Долгота: %f</string>
+</resources>

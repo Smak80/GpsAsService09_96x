@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GPSService09–962</string>
+    <string name="start_stop_location_listening">StartStopLocationListening</string>
+    <string name="position">Latitude: %f; Longitude: %f</string>
+</resources>
