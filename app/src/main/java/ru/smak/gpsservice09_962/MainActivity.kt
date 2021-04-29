@@ -83,13 +83,13 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onPause() {
-        super.onPause()
+    override fun onStop() {
+        super.onStop()
         LocationData.location.removeObserver(locationObserver)
     }
 
-    override fun onResume() {
-        super.onResume()
+    override fun onStart() {
+        super.onStart()
         if (LocationService.running)
             LocationData.location.observe(this, locationObserver)
     }
