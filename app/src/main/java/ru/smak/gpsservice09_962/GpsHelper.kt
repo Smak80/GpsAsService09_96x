@@ -46,5 +46,16 @@ class GpsHelper private constructor() : LocationListener{
     override fun onLocationChanged(location: Location) {
         locationUpdater?.invoke(location)
     }
-
+    
+    override fun onProviderDisabled(provider: String){
+        
+    }
+    
+    override fun onProviderEnabled(provider: String){
+        
+    }
+    
+    override fun onStatusChanged(/*...*/){
+    
+    }
 }
